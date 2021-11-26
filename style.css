@@ -1,0 +1,33 @@
+html {
+    box-sizing: border-box;
+}
+*, *::before, *::after {
+    box-sizing: inherit;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.header {
+    flex: 1;
+    background-color: #1F2937;
+}
+
+.main-one {
+    flex: 1;
+}
+
+.main-two {
+    flex: 1;
+    background-color: #E5E7EB;
+}
+
+.main-three {
+    flex: 1;
+}
