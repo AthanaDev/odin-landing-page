@@ -20,8 +20,11 @@ body {
     display: flex;
     position: fixed;
     color: #E5E7EB;
-    justify-content: space-around;
-    width: 100%;
+    align-self: center;
+    align-items: center;
+    justify-content: space-between;
+    width: 60%;
+    font-size: 18px;
 }
 
 .logo_img {
@@ -33,6 +36,36 @@ body {
     margin: 0;
     padding: 0;
     display: flex;
+    gap: 30px;
+}
+
+.header-main {
+    margin-top: 65px;
+    width: 65%;
+    display: flex;
+    align-self: center;
+}
+
+.header-left {
+    flex: 0 1 0%;
+}
+
+.header-left h2 {
+    font-size: 48px;
+    color: #f9faf9;
+}
+
+.header-left p {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.header-right {
+    flex: 0 1 0%;
+}
+
+.main-image {
+    object-fit: fill;
 }
 
 .header,
@@ -43,6 +76,7 @@ body {
 }
 
 .header,
+.nav,
 .footer-two {
     background-color: #1F2937;
 }
